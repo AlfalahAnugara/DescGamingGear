@@ -4,11 +4,6 @@ import Keyboardpage from './statefull/Keyboardpage';
 import Headsetpage from './statefull/Headsetpage';
 import Mousepage from './statefull/Mousepage';
 import Homepage from './statefull/Homepage';
-// import Content from './container/Content';
-// import Provinsi from './container/Provinsi';
-// import Footer from './container/Footer';
-// import Hotline from './container/Hotline'/;
-// import TableProvinsi from './components/ListProvinsi';
 import './App.css';
 import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
 
@@ -26,13 +21,11 @@ export default function App() {
     </div>
   )
 }
-const HomePage = () => {
+function HomePage(){
   return(
     <div className="container-fluid">
       <Navigation/>
       <Homepage/>
-      {/* <Content/> */}
-      {/* <Footer/> */}
     </div>
   )
 }
@@ -42,7 +35,6 @@ function HeadsetPage(){
       <Navigation/>
       <Headsetpage/>
     </div>
-
   )
 }
 function KeyboardPage(){
@@ -58,33 +50,6 @@ function MousePage(){
     <div className="container-fluid">
       <Navigation/>
       <Mousepage/>
-      
     </div>
   )
 }
-// const Prov = () => {
-//   return(
-//     <div className="container dark">
-//       <Navbar/>
-//       <Provinsi/>
-//       <Footer/>
-//     </div>
-//   )
-// }
-// const Hot = () => {
-//   return(
-//     <div className="container dark">
-//       <Navbar/>
-//       <Hotline/>
-//       <Footer/>
-//     </div>
-//   )
-// }
-// const Contact = () => {
-//   return(
-//     <div className="container dark">
-//       <Navbar/>
-//       <Footer/>
-//     </div>
-//   )
-// }
