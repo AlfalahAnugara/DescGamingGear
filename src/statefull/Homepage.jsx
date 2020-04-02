@@ -12,8 +12,9 @@ export default class Homepage extends Component {
 
     render() {
         return (
-            <div className="container">
-                <div class="row">
+            <div className="container mt-5">
+                <h1 className="text-center text-success mb-5">Welcome to gaming equipment shop</h1>
+                <div className="row">
                     {this.state.ListSteelSeries.map(data => {
                         return (
                             <List url={data.url} nama={data.nama} />
