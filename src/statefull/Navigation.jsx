@@ -7,7 +7,7 @@ class Navigation extends Component {
         return (
             <div className="container-fluid" style={{ marginBottom: "100px" }}>
                 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-                    <a class="navbar-brand ml-5" href="#">CODM Shops</a>
+                    <Link to="/" className="nav-link"><a class="navbar-brand ml-5" href="#">CODM Shops</a></Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

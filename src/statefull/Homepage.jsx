@@ -1,6 +1,7 @@
-import React, { Component } from 'react'; import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 import List from '../stateless/ListMenuHome';
-export default class Homepage extends Component {
+
+class Homepage extends Component {
 
     state = {
         ListSteelSeries: [
@@ -24,6 +25,5 @@ export default class Homepage extends Component {
             </div>
         );
     }
-
   }
-
+export default Homepage;

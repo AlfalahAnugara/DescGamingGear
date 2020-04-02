@@ -1,18 +1,17 @@
 import React,{Component} from 'react';
-import logo from '../logo.svg';
 import List from '../stateless/ListHeadset';
 
-export default class Headsetpage extends Component {
+class Headsetpage extends Component {
 
     state = {
         ListSteelSeries: [
-            {id:1, nama:"Steel series 1",ket:"lorem5", image:"https://s.kaskus.id/r480x480/images/fjb/2019/01/09/headset_gaming_stellseries_arctis_5_rgb_2019_black_new_original_10213728_1546970897.png"},
-            {id:2, nama:"Steel series 2",ket:"lorem5", image:"https://s.blanja.com/picspace/133/113797/700.400_8a2dc9ff98e446348b52b124d82d8256.jpg?w=700"}
+            {id:1, nama:"Steel series 1", image:"https://s.kaskus.id/r480x480/images/fjb/2019/01/09/headset_gaming_stellseries_arctis_5_rgb_2019_black_new_original_10213728_1546970897.png"},
+            {id:2, nama:"Steel series 2", image:"https://s.blanja.com/picspace/133/113797/700.400_8a2dc9ff98e446348b52b124d82d8256.jpg?w=700"}
         ],
         ListRazer: [
-            {id:1, nama:"razer1",ket:"lorem5", image:"https://www.blibli.com/friends/assets/2019/02/ManO%E2%80%99War-696x464.jpg"},
-            {id:2, nama:"razer1",ket:"lorem5", image:"https://media.karousell.com/media/photos/products/2019/11/11/logitech_g431_71_surround_sound_gaming_headphone_1573474136_eedb6a40_progressive.jpg"},
-            {id:3, nama:"razer1",ket:"lorem5", image:"https://i.ebayimg.com/images/g/bSIAAOSwp8pbpVEs/s-l1600.jpg"}
+            {id:1, nama:"razer1", image:"https://www.blibli.com/friends/assets/2019/02/ManO%E2%80%99War-696x464.jpg"},
+            {id:2, nama:"razer1", image:"https://media.karousell.com/media/photos/products/2019/11/11/logitech_g431_71_surround_sound_gaming_headphone_1573474136_eedb6a40_progressive.jpg"},
+            {id:3, nama:"razer1", image:"https://i.ebayimg.com/images/g/bSIAAOSwp8pbpVEs/s-l1600.jpg"}
         ]
     }
     render(){
@@ -38,4 +37,4 @@ export default class Headsetpage extends Component {
         </div>
     )}
 }
-// export default Headsetpage;
+export default Headsetpage;
